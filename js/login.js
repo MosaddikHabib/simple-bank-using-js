@@ -9,4 +9,11 @@ document.getElementById("btn-submit").addEventListener('click', function () {
     const password = passwordField.value;
 
     console.log(email, password);
+
+    if (email === 'rial@h.com' && password === 'ssssssss') {
+        window.location.href = 'bank.html'
+    }
+    else {
+        alert("You have no access. Insert the right password and email.")
+    }
 })
