@@ -14,6 +14,6 @@ document.getElementById("btn-submit").addEventListener('click', function () {
         window.location.href = 'bank.html'
     }
     else {
-        alert("You have no access. Insert the right password and email.")
+        alert("You have no access. Insert the right password and email.");
     }
 })
